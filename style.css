@@ -9,11 +9,17 @@
     margin-top: 20px;
     margin-left: 20px;
 }
+<<<<<<< Updated upstream
 .destino{
     padding-right: 100px;
    height: 70px;  
     width: 70px;
     
+=======
+body {
+    background-color: aqua;
+    text-align: center;
+>>>>>>> Stashed changes
 }
 .butoes{
     align-self: end;
