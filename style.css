@@ -18,6 +18,20 @@ body {
     background-color: aqua;
 }
 
+.menu{
+    display: inline-flex;
+}
+
+.menu a{
+    padding: 10px 10px;
+    background-color: rgba(rgb(116, 77, 77), rgb(58, 104, 58), rgb(76, 76, 126), 0.1);
+}
+
 .menu li{
+    display: inline;
+    padding: 10px 10px;
+    background-color:rgb(108, 60, 153)
+}
+.menu ul{
     display: inline;
 }
