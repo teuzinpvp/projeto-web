@@ -18,14 +18,24 @@ body {
     background-color: white;
 }
 
+.menu{
+    display: inline-flex;
+}
+
+.menu a{
+    padding: 10px 10px;
+    background-color: rgba(rgb(116, 77, 77), rgb(58, 104, 58), rgb(76, 76, 126), 0.1);
+}
+
 .menu li{
     display: inline;
+<<<<<<< HEAD
 }
 
 .rodape{
     font-family:Arial, Helvetica, sans-serif ;
     display: flex;
-    background-color: #000080;
+    background-color: #070749;
     width: 100%;
     padding: 3%;
     position: fixed;
@@ -42,3 +52,11 @@ body {
     
 }
 
+=======
+    padding: 10px 10px;
+    background-color:rgb(108, 60, 153)
+}
+.menu ul{
+    display: inline;
+}
+>>>>>>> 11469369bad7ac6e657eafab02e71ae851ffd47e
