@@ -4,33 +4,35 @@
     box-sizing: border-box;
 }
 .cabecalho{
-    width: 100%;
-    background-color: rgb(70, 88, 138);
+    height: 5em;
+    .ufv_logo{
+        width: 4em;
+        padding-right: 50em;
+        padding-left: 2em;
+    }
+}
+ .ufv_logo{
+        width: 4em;
+        padding-right: 50em;
+        padding-left: 2em;
+    }
+.cabecalho nav{
     display: flex;
-    justify-content: space-around;
+    background-color: rgba(21, 22, 113, 1);
+     width: 100em;
+    padding: 1em;
+    position: fixed;
 }
-.img_logo{
-    width: 100px;
+.cabecalho td{
+    padding-left: 7em;
+    padding-right: em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
 }
-
-
 body {
-    background-color: white;
+     background: linear-gradient(to right, rgb(78, 76, 76), white);
 }
 
-.menu{
-    display: inline-flex;
-}
-
-.menu a{
-    padding: 10px 10px;
-    background-color: rgba(rgb(116, 77, 77), rgb(58, 104, 58), rgb(76, 76, 126), 0.1);
-}
-
-.menu li{
-    display: inline;
-
-}
 
 .rodape{
     font-family:Arial, Helvetica, sans-serif ;
@@ -53,13 +55,10 @@ body {
     
 }
 
-.menu ul{
-    display: inline;
-}
+
 
 .personalizaçao{
     display: flex;
-    background-color: rgb(255, 255, 255);
     padding: 6%;
 }
 

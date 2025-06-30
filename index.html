@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="cabecalho">
-            <img src="imagens/ufv_logo.png" alt="ufv_logo" class="img_logo">
-            <div class="menu">
-                <ul>
-                    <li> <a href="sobre">sobre</a></li>
-                    <li> <a href="inicio">inicio </a></li> 
-                </ul>
-            </div>
+   <header class="cabecalho">
+       <nav>
+            <table>
+                <img class="ufv_logo" src="imagens/ufv_logo.png">
+                <tr>
+                    <td>Inicio</td> <td>Eventos</td> <td>Sobre</td>
+                </tr>
+            </table>
+       </nav>
     </header>
 
     <div class="personalizaçao">
@@ -24,15 +25,23 @@
             <h1><li>Eduardo Lucas Leite Fonseca<li><br></h1>
                 <li>Sou um parágrafo. Clique aqui para adicionar seu</li>
                 <li>texto. Sou um ótimo lugar para você contar a sua</li>
+                <li>Sou um parágrafo. Clique aqui para adicionar seu</li>
                 <li>história e compartilhar um pouco mais sobre você.</li><br>
                 <li id="contato"><img src="imagens/ufv_logo.png">Contato(99-999-999)</li>
                 <li id="contato"><img src="imagens/ufv_logo.png">Insta(Coringão_o_Brabo)</li><br>
-                <li id="contato"><button>></button></li>
+                <li id="contato" onclick="mudarperfil(1)"><button>></button></li>
                 </ul>
             </h1> 
           </p>
     </div>
 
+    <script>
+        let indiceAtual = 0;
+
+        function mudarperfil(direçao){
+
+        }
+    </script>
 
     <div class="rodape">
         <ul>
