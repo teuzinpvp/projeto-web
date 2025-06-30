@@ -1,5 +1,7 @@
 /*-- Cabeçalho --*/
 .cabecalho{
+    z-index: 100;
+    position: relative;
     height: 5em;
     .ufv_logo{
         width: 4em;
@@ -8,9 +10,11 @@
     }
 }
 .cabecalho nav{
+    z-index: 100;
     display: flex;
-    background-color: rgba(21, 22, 113, 1);
-     width: 100em;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    width: 100em;
     padding: 1em;
     position: fixed;
 }
