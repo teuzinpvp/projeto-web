@@ -1,15 +1,53 @@
 body {
+  z-index: 1;
   margin: 0;
-  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('imagens/prod.rural.jpeg') no-repeat center center / cover;
+  background: linear-gradient(90deg,red,blue);
   background-attachment: fixed;
 }
 .corpo{
     height: 50em;
     #conheca_calen{
         color: white;
-        font-family: Arial, sans-serif;
-        margin-top: 1em;
+        font-family: 'Poppins';
         margin-left: 1.5em;
         font-size: 6em;
     }
+
+}
+html {
+  scroll-behavior: smooth;
+}
+#botao_seta{
+  background: none;
+  border: none;
+  cursor: pointer;
+  #png_seta{
+    position: absolute;
+    z-index: 1;
+      filter: brightness(0) saturate(100%) invert(100%);
+      height: 10em;
+      width: 10em;
+      margin-left: 10em;
+    }
+}
+
+#explicacao{
+  background-color: white;
+  margin-top: 30em;
+  margin-left: 3em;
+  width: 85em;
+  height: 50em;
+  border-radius: 1em;
+  padding: 3em 0em 0em 5em;
+  #projeto{
+    color: #151671;
+    font-family: 'Poppins';
+    font-size: 3em;
+  }
+  #texto_projeto{
+    font-family: 'Montserrat';
+    font-size: 1.7em;
+    letter-spacing: normal;
+  }
+  
 }

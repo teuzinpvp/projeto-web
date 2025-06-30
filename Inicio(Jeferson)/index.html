@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/Cabeçalho_Rodape/cabecalho_rodape.css">
+    <link rel="stylesheet" href="../Cabeçalho_Rodape/cabecalho_rodape.css">
 </head>
 <body>
     <header class="cabecalho">
        <nav>
             <table>
-                <img class="ufv_logo" src="/Cabeçalho_Rodape/logo_ufv_cabeçalho/ufv_logo.png">
+                <img class="ufv_logo" src="../Cabeçalho_Rodape/logo_ufv_cabeçalho/ufv_logo.png">
                 <tr>
                     <td>Inicio</td> <td>Eventos</td> <td>Sobre</td>
                 </tr>
@@ -19,10 +20,33 @@
        </nav>
     </header>
     <section class="corpo">
-       <div id="conheca_calen">
+       <p id="conheca_calen">
             Conheça o <br>
             Calendário
-       </div>
+       </p>
+
+       <button id="botao_seta" type="button">
+            <a href="#explicacao">
+                <img id="png_seta" src="imagens/png_seta2.png">
+            </a>
+       </button>
+
+       <div id="explicacao">
+            <p id="projeto">
+                Sobre
+            </p>
+            <p id="texto_projeto">
+                O Calendário UFV.CAF é um projeto feito por 4 estudantes da Universidade Federal de Viçosa (Campus Florestal) <br> 
+                para trabalho final da materia CFI 037 - ESTRUTURA DA INFORMAÇÃO NA WEB.
+            </p>
+            <p id="projeto">
+               Objetivo
+            </p>
+            <p id="texto_projeto">
+                O projeto tem como objetivo montar uma linha do tempo com os pricipais eventos que
+                ocorrerão ou vão ocorrer ao longo do ano de 2025. Trazendo uma galeria de fotos, descrição e entre outros conteudos que 
+                podem se encontrar na pagina de "Eventos". 
+            </p>
     </section>
 </body>
 </html>
