@@ -10,7 +10,7 @@
 .cabecalho nav{
     display: flex;
     background-color: rgba(21, 22, 113, 1);
-     width: 100em;
+     width: 100%;
     padding: 1em;
     position: fixed;
 }
