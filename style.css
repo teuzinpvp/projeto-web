@@ -63,24 +63,49 @@ body {
     padding: 6%;
 }
 
-.personalizaçao img{
+#perfil{
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    border-color: black ;
+    border: 10px solid black ;
 }
 
 .personalizaçao h1{
-  color: rgb(14, 14, 59);
+  color: rgb(32, 32, 131);
   font-size: 26pt;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.personalizaçao p{
+.personalizaçao ul{
+    line-height: 1.45;
     margin-left: 10%;
-    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-size: 18pt;
 }
 
-.personalizaçao text{
-    color: rgb(41, 145, 145);
-    font-size: 15pt;
+#contato{
+    font-size: 12pt;
 }
+
+#contato img{
+    width: 15px;
+}
+
+#contato button{
+    font-size: 19pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    width: 10em;
+    border-radius: 10px;
+}
+
+#contato button:hover{
+    background-color: white;
+    color: black;
+    font-size: 19pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 10em;
+    transition: 1s;
+}
+
