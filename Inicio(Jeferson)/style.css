@@ -6,13 +6,17 @@ body {
 }
 .corpo{
     height: 50em;
-    #conheca_calen{
+    #div_conheca{
+      display: flex;
+      #conheca_calen{
+        z-index: 2;
         color: white;
         font-family: 'Poppins';
         margin-left: 1.5em;
         font-size: 6em;
+      }
+      
     }
-
 }
 html {
   scroll-behavior: smooth;
