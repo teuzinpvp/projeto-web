@@ -1,7 +1,7 @@
 body {
   z-index: 1;
   margin: 0;
-  background: linear-gradient(90deg,red,blue);
+  background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)), url('imagens/backgorund_image1.jpg') center center / cover;
   background-attachment: fixed;
 }
 .corpo{
@@ -36,20 +36,22 @@ html {
 }
 
 #explicacao{
-  background-color: white;
+  background-color: rgb(255, 255, 255,0.8);
   margin-top: 30em;
   margin-left: 3em;
   width: 85em;
-  height: 50em;
+  height: 90em;
   border-radius: 1em;
   padding: 3em 0em 0em 5em;
-  #projeto{
+  #Titulo{
     color: #151671;
     font-family: 'Poppins';
     font-size: 3em;
   }
   #texto_projeto{
-    font-family: 'Montserrat';
+    padding-right: 2em;
+    font-family: Georgia;
+    line-height: 1.6;
     font-size: 1.7em;
     letter-spacing: normal;
   }
