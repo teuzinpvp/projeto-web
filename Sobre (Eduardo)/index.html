@@ -25,27 +25,20 @@
             <img src="imagens/Teste_imagem.jpeg" id="perfil">
         </div>
         <div class="direita">
-            <p>
-           <h1>Eduardo Lucas Leite Fonseca</h1>
+        <h1 id="titulo">Eduardo Lucas Leite Fonseca</h1>
+        <p id="texto">  
                Sou um parágrafo. Clique aqui para adicionar seu
                texto. Sou um ótimo lugar para você contar a sua
                Sou um parágrafo. Clique aqui para adicionar seu
                história e compartilhar um pouco mais sobre você.
-               
+        </p>
+        <br>
                <h3 id="contato"> <img src="imagens/ufv_logo.png">contato</h3>
                <h3 id="contato"><img src="imagens/ufv_logo.png">contato</h3>
-               <button class="botao" onclick="mudarperfil()">></button>
-            </p>
+        <br>
+            <button class="botao" onclick="mudarperfil()">></button>
+            <button class="botao" onclick="mudarperfil()">></button>
         </div>
-    </div>
-
-    <div>
-        <p id="teste">
-            texto de teste
-            quebra linha
-            <br><br>
-            <button onclick="mudarperfil()">clica</button>
-        </p>
     </div>
 
     <script>
@@ -53,12 +46,15 @@
         let indiceAtual = 0;
 
         function mudarperfil(){
-            const titulo = document.getElementById("teste");
-            titulo.textContent = "Texto testador \n estou aqui para";
-                                
+            const titulo = document.getElementById("titulo");
+            titulo.textContent = "Jeferson Juliano";
+            
+            const texto = document.getElementById("texto");
+            texto.textContent = "Sou um parágrafo. Clique aqui para adicionar seu\nótimo lugar para você contar a sua\nSou um parágrafo. Clique aqui para adicionar seu\nhistória e compartilhar um pouco mais sobre você.\nSou um parágrafo. Clique aqui para adicionar seu";
 
-            const imagem = document.getElementById("peril");
-            imagem.src = "imagens/estudar-na-Rússia-1.jpg"
+            const imagem = document.getElementById("perfil");
+            imagem.src = "imagens/ufv_logo.png"
+
         }
     </script>
 
@@ -89,23 +85,5 @@
 
         </ul>
     </div>
-
-       <div class="personalizaçao">
-          <img src="imagens/Teste_imagem.jpeg" id="perfil"> 
-          <p>
-            <ul>
-            <h1><li id="texto">Eduardo Lucas Leite Fonseca<li><br></h1>
-                <li>Sou um parágrafo. Clique aqui para adicionar seu</li>
-                <li>texto. Sou um ótimo lugar para você contar a sua</li>
-                <li>Sou um parágrafo. Clique aqui para adicionar seu</li>
-                <li>história e compartilhar um pouco mais sobre você.</li><br>
-                <li id="contato"><img src="imagens/ufv_logo.png">Contato(99-999-999)</li>
-                <li id="contato"><img src="imagens/ufv_logo.png">Insta(Coringão_o_Brabo)</li><br>
-                <li id="contato" onclick="mudarperfil(1)"><button>></button></li>
-                </ul>
-            </h1> 
-          </p>
-    </div>
-    
 </body>
 </html>
