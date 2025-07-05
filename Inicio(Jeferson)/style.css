@@ -15,7 +15,25 @@ body {
         margin-left: 1.5em;
         font-size: 6em;
       }
-      
+      #U{
+        color: black;
+        font-family: 'Poppins';
+        margin-top: 2.5em;
+        margin-left: 0.3em;
+        font-size: 6em;
+      }
+      #F{
+        color: brown;
+        font-family: 'Poppins';
+        margin-top: 2.5em;
+        font-size: 6em;
+      }
+      #V{
+        color: yellow;
+        font-family: 'Poppins';
+        margin-top: 2.5em;
+        font-size: 6em;
+      }
     }
 }
 html {
