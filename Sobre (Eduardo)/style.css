@@ -107,3 +107,7 @@ body {
 #texto{
     margin-top: 50px;
 }
+
+.botao_voltar{
+    display: none;
+}
