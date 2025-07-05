@@ -24,7 +24,7 @@
           <img src="imagens/Teste_imagem.jpeg" id="perfil"> 
           <p>
             <ul>
-            <h1><li>Eduardo Lucas Leite Fonseca<li><br></h1>
+            <h1><li id="texto">Eduardo Lucas Leite Fonseca<li><br></h1>
                 <li>Sou um parágrafo. Clique aqui para adicionar seu</li>
                 <li>texto. Sou um ótimo lugar para você contar a sua</li>
                 <li>Sou um parágrafo. Clique aqui para adicionar seu</li>
@@ -36,12 +36,17 @@
             </h1> 
           </p>
     </div>
+    
 
     <script>
         let indiceAtual = 0;
 
         function mudarperfil(direçao){
+            const titulo = document.getElementById("texto");
+            titulo.textContent = "Jeferson Juliano";
 
+            const imagem = document.getElementById("perfil");
+            imagem.src = "imagens/estudar-na-Rússia-1.jpg"
         }
     </script>
 

@@ -5,7 +5,7 @@
 }
 
 body {
-     background: linear-gradient(to right, black, white);
+     background: linear-gradient(white);
 }
 
 
@@ -83,3 +83,12 @@ body {
     transition: 1s;
 }
 
+#texto{
+   color: rgb(32, 32, 131);
+   font-size: 26pt;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#imagem{
+    width: 100px;
+}
