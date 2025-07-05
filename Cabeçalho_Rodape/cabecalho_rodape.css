@@ -1,0 +1,27 @@
+/*-- Cabeçalho --*/
+.cabecalho{
+    z-index: 100;
+    position: relative;
+    height: 5em;
+    .ufv_logo{
+        width: 4em;
+        padding-right: 50em;
+        padding-left: 2em;
+    }
+}
+.cabecalho nav{
+    z-index: 100;
+    display: flex;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    width: 100em;
+    padding: 1em;
+    position: fixed;
+}
+.cabecalho td{
+    padding-left: 7em;
+    padding-right: em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+/*-- Rodape --*/

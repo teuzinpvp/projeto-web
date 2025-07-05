@@ -3,32 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.cabecalho{
-    height: 5em;
-    .ufv_logo{
-        width: 4em;
-        padding-right: 50em;
-        padding-left: 2em;
-    }
-}
- .ufv_logo{
-        width: 4em;
-        padding-right: 50em;
-        padding-left: 2em;
-    }
-.cabecalho nav{
-    display: flex;
-    background-color: rgba(21, 22, 113, 1);
-     width: 100em;
-    padding: 1em;
-    position: fixed;
-}
-.cabecalho td{
-    padding-left: 7em;
-    padding-right: em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: aliceblue;
-}
+
 body {
      background: linear-gradient(to right, black, white);
 }
