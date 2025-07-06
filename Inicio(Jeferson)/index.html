@@ -4,25 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/Cabeçalho_Rodape/cabecalho_rodape.css">
+    <link rel="stylesheet" href="../Cabeçalho_Rodape/cabecalho_rodape.css">
 </head>
 <body>
     <header class="cabecalho">
        <nav>
             <table>
-                <img class="ufv_logo" src="/Cabeçalho_Rodape/logo_ufv_cabeçalho/ufv_logo.png">
+                <img class="ufv_logo" src="../Cabeçalho_Rodape/logo_ufv_cabeçalho/ufv.lado.lateral-removebg-preview.png">
                 <tr>
-                    <td>Inicio</td> <td>Eventos</td> <td>Sobre</td>
+                    <td id="inicio">Inicio</td> <td id="eventos">Eventos</td> <td id="sobre">Sobre</td>
                 </tr>
             </table>
        </nav>
     </header>
     <section class="corpo">
-       <div id="conheca_calen">
-            Conheça o <br>
-            Calendário
+        
+        <div id="div_conheca">
+            <p id="conheca_calen">
+                Conheça o <br>
+                Calendário
+                <p id="UFV">
+                    <p id="U">U</p>
+                    <p id="F">F</p>
+                    <p id="V">V</p>
+                </p>
+                
+            </p>
+            
        </div>
+       
+       <button id="botao_seta" type="button">
+            <a href="#explicacao">
+                <img id="png_seta" src="imagens/png_seta2.png">
+            </a>
+       </button>
+
+       <div id="explicacao">
+            <p id="Titulo">
+                Sobre
+            </p>
+            <p id="texto_projeto">
+                 O Calendário UFV.CAF é um projeto desenvolvido por 4 estudantes da Universidade Federal de Viçosa, Campus Florestal, 
+                 como trabalho final da disciplina CFI-037 - Estrutura da Informação na Web.<br> 
+                 Esse projeto demonstra a aplicação prática 
+                 dos conceitos aprendidos na disciplina e a capacidade dos estudantes em trabalhar em equipe para criar soluções inovadoras.
+            </p>
+            <p id="Titulo">
+               Objetivo
+            </p>
+            <p id="texto_projeto">
+                 O projeto tem como objetivo criar uma linha do tempo interativa e informativa, destacando os principais eventos que 
+                 ocorrerão ao longo do ano de 2025.<br>
+                 Além disso, o projeto inclui uma galeria de fotos e descrições detalhadas desses eventos, 
+                 que podem ser acessados na página de "Eventos". <br> 
+                 Essa página oferece uma visão mais ampla e imersiva para os usuários, 
+                 permitindo que eles explorem e descubram mais sobre os eventos que estão por vir. 
+            </p>
+            <p id="Titulo">
+               Informações sobre o trabalho
+            </p>
+            <p id="texto_projeto">
+                 A equipe desenvolveu o site com cada integrante contribuindo com suas habilidades específicas.<br>
+                  Jeferson foi responsável pela programação da página inicial, Mateus trabalhou na página de eventos, 
+                  Eduardo desenvolveu a página de créditos e bio dos integrantes, enquanto Luis ajudou com a modificação do texto de 
+                  cada página, forneceu ideias e suporte.<br> 
+                  Para coletar os dados, a equipe consultou os sites oficiais da UFV e 
+                  agendamentos/divulgações dos eventos no Campus. A equipe utilizou ferramentas como Visual Studio Code para programação, 
+                  GitHub para compartilhar os códigos em tempo real, Discord para reuniões, e IA para apredizado, ideias e dúvidas.<br>
+                  O principal desafio que a equipe enfrentou além da programação em si, foi ter que lidar com questões estéticas e decidir quais 
+                  elementos incluir para tornar o site mais atraente e agradável.
+            </p>
     </section>
 </body>
 </html>

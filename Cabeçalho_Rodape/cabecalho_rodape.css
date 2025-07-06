@@ -4,18 +4,19 @@
     position: relative;
     height: 5em;
     .ufv_logo{
-        width: 4em;
-        padding-right: 50em;
+        width: 11em;
+        padding-right: 45em;
         padding-left: 2em;
     }
 }
 .cabecalho nav{
     z-index: 100;
     display: flex;
+
      width: 100%;
     background-color: transparent;
     backdrop-filter: blur(10px);
- 
+
     padding: 1em;
     position: fixed;
 }
@@ -24,5 +25,8 @@
     padding-right: em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
+}
+link{
+    text-decoration: none;
 }
 /*-- Rodape --*/
