@@ -11,6 +11,7 @@ body{
     border-radius: 40px;
     transition: all 1.5s ease;
     overflow: hidden;
+    pointer-events: visible
 }
 #caixa_esquerda:hover{
     width: 1300px;
@@ -19,6 +20,12 @@ body{
         transition-delay: 1s;
     }
 
+}
+.titulo{
+    color: blue;
+    text-align: center;
+    font-size: 70px;
+    font-family: sans-serif;
 }
 #logo_evento{
     width: 300px;
@@ -35,6 +42,10 @@ body{
     font-family: sans-serif;
     padding-top: 10px;
     font-size: 2em;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
 }
 #descricao{
     color: whitesmoke;
