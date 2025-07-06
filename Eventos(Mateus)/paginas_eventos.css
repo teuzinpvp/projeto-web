@@ -1,10 +1,17 @@
 body{
     margin: 0;
-    
+    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)), url('imagens-eventos/backgorund_image1.jpg') center center / cover;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+}
+.interface{
+    background-color: rgb(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding-bottom: 100px;
 }
 .subtitulo{
     color: blue;
-    font-family: roboto;
+    font-family: popins;
 }
 .descricao_evento{
     text-align: center;
@@ -14,8 +21,9 @@ body{
 .titulo_evento{
     text-align: center;
     font-size: 70px;
-    font-family: roboto;
+    font-family: popins;
     color: blue;
+    padding-top: 70px;
 }
 .foto_evento{
     width: 40%;
