@@ -58,7 +58,16 @@ body {
 #contato img{
     width: 15px;
 }
+
+#contato_0{
+    font-size: 12pt;
+}
+
+#contato_0 img{
+    width: 15px;
+}
 .botao{
+    display: block;
     cursor: pointer;
     font-size: 19pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -110,4 +119,23 @@ body {
 
 .botao_voltar{
     display: none;
+    cursor: pointer;
+    font-size: 19pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    width: 5em;
+    border-radius: 10px;
+}
+
+.botao_voltar:hover{
+    background-color: white;
+    color: black;
+    font-size: 19pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 1s;
+}
+
+.mudar{
+    display: flex;
 }
