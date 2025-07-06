@@ -53,19 +53,14 @@ body {
 
 #contato{
     font-size: 12pt;
-}
-
-#contato img{
-    width: 15px;
+    margin-top: 5px;
 }
 
 #contato_0{
     font-size: 12pt;
+    margin-top: 5px;
 }
 
-#contato_0 img{
-    width: 15px;
-}
 .botao{
     display: block;
     cursor: pointer;
@@ -146,5 +141,44 @@ body {
 }
 
 .informativo{
+    font-family: 'Poppins';
+}
+
+hr{
+    width: 100%;
+    color: black;
+    padding-top: 3%;
+}
+
+.contas{
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+   background: linear-gradient(black,white);
+    height: 700px;
+    width: 1000px;
+    padding-bottom: 3%;
+}
+
+#imagem{
+    margin-left: -10px;
+    margin-bottom: 5px;
+    width: 50px;
+}
+
+#imagem_0{
+    margin-right: 7px;
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+.tentativa{
+    display: flex;
+}
+
+.contas h1{
+    text-align: center;
+    color: white;
+    font-size: 26pt;
     font-family: 'Poppins';
 }
