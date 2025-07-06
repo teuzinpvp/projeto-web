@@ -2,15 +2,15 @@
 
         const insta= [
             "@eduardo_lucas48",
-            "@Jeferson",
-            "@Mateus",
+            "@eae_rush1",
+            "@matzu_mag",
             "@soviet069"
         ]
 
         const contato = [
             "eduardo.fonseca@ufv.br",
-            "(34) 9999-999",
-            "(12) 9999-999",
+            "jeferson.juliano@ufv.br",
+            "mateus.h.santos@ufv.br",
             "luis.m.alves@ufv.br"
         ]
 
