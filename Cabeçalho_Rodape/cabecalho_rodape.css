@@ -12,9 +12,11 @@
 .cabecalho nav{
     z-index: 100;
     display: flex;
+
+     width: 100%;
     background-color: transparent;
     backdrop-filter: blur(10px);
-    width: 100em;
+
     padding: 1em;
     position: fixed;
 }
