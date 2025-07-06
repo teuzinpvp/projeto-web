@@ -4,6 +4,40 @@
     box-sizing: border-box;
 }
 
+.cabecalho{
+    z-index: 100;
+    position: relative;
+    height: 5em;
+    
+}
+
+.ufv_logo{
+        width: 11em;
+        padding-right: 45em;
+        padding-left: 2em;
+}
+
+.cabecalho nav{
+    z-index: 100;
+    display: flex;
+
+    width: 100%;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+
+    padding: 1em;
+    position: fixed;
+}
+.cabecalho td{
+    padding-left: 7em;
+    padding-right: em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+link{
+    text-decoration: none;
+}
+
 body {
      background: linear-gradient(to right, white);
 }
@@ -154,7 +188,7 @@ hr{
     border-radius: 10%;
     margin-left: auto;
     margin-right: auto;
-   background: linear-gradient(black,white);
+    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
     height: 700px;
     width: 1000px;
     padding-bottom: 3%;
