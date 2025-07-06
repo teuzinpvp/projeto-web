@@ -1,21 +1,21 @@
  let indiceAtual = 0;
 
         const insta= [
-            "@Eduardo",
+            "@eduardo_lucas48",
             "@Jeferson",
             "@Mateus",
-            "@Luis"
+            "@soviet069"
         ]
 
         const contato = [
-            "(99) 9999-999",
+            "eduardo.fonseca@ufv.br",
             "(34) 9999-999",
             "(12) 9999-999",
-            "(00) 9999-999"
+            "luis.m.alves@ufv.br"
         ]
 
         const texto = [
-            "Sou um parágrafo. Clique aqui para adicionar seu\ntexto. Sou um ótimo lugar para você contar a sua\nSou um parágrafo. Clique aqui para adicionar seu\nhistória e compartilhar um pouco mais sobre você.",
+            "Fiquei responsável por esta página e fui o único\nmembro a usar o JavaScript o Back do Frontend.\nGostei muito de fazer esse trabalho ganhei\nmuitas risadas e insônias que carregarei pelo\nresto da vida.",
             "Clique aqui para adicionar seu\ntexto. Sou um ótimo lugar para você contar a sua\nSou um parágrafo. Clique aqui para adicionar seu\nhistória e compartilhar um pouco mais sobre você.",
             "Sou um parágrafo.  seu\ntexto. Sou um ótimo lugar para você contar a sua\nSou um parágrafo. Clique aqui para adicionar seu\nhistória e compartilhar um pouco mais sobre você.",
             "Sou um parágrafo. Clique aqui para adicionar seu\ntexto.a sua\nSou um parágrafo. Clique aqui para adicionar seu\nhistória e compartilhar um pouco mais sobre você."
@@ -24,16 +24,16 @@
 
         const titulo=[
             "Eduardo Lucas Leite Fonseca",
-            "Jeferson Juliano",
-            "Mateus Henrique",
-            "Luis Miguel"
+            "Jeferson Juliano dos Santos",
+            "Mateus Henrique Malagutte Santos",
+            "Luis Miguel Moraes Alves"
         ]
 
         const imagens=[
             "imagens/Eduardo_imagem.jpg",
             "imagens/Jeferson_imagem.jpg",
-            "imagens/ufv_logo.png",
-            "imagens/Teste_imagem.jpeg"
+            "imagens/Mateus_imagem.jpg",
+            "imagens/Luis_imagem.jpg"
         ]
 
         const contatinho = document.getElementById('contato');
