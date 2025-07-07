@@ -1,8 +1,8 @@
 body{
     background-color: rgb(255, 255, 255);
     margin: 0;
-    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)), url('imagens-eventos/backgorund_image1.jpg') center center / cover;
-  background-attachment: fixed;
+    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)), url('Imagens-Eventos/fundo_DXT.jpg') center center / cover;
+     background-attachment: fixed;  
 }
 #caixa_esquerda{
     margin-left: 40px;
@@ -27,7 +27,7 @@ body{
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 70px;
-    font-family: roboto;
+    font-family: 'Poppins';
 }
 #logo_evento{
     width: 300px;
@@ -41,7 +41,7 @@ body{
 #titulo_evento{
     text-align: center;
     color: aliceblue;
-    font-family: popins;
+    font-family: 'Poppins';
     padding-top: 10px;
     font-size: 2em;
     text-decoration: none;
@@ -51,7 +51,7 @@ body{
     color: aliceblue;
 }
 .link:hover{
-    color: blue;
+    color: #151671;
 }
 #descricao{
     color: whitesmoke;
