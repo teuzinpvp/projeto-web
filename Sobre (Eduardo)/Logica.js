@@ -15,10 +15,10 @@
         ]
 
         const texto = [
-            "Fiquei responsável por esta página e fui o único\nmembro a usar o JavaScript o Back do Frontend.\nGostei muito de fazer esse trabalho ganhei\nmuitas risadas e insônias que carregarei pelo\nresto da vida.",
-            "Clique aqui para adicionar seu\ntexto. Sou um ótimo lugar para você contar a sua\nSou um parágrafo. Clique aqui para adicionar seu\nhistória e compartilhar um pouco mais sobre você.",
-            "Sou um parágrafo.  seu\ntexto. Sou um ótimo lugar para você contar a sua\nSou um parágrafo. Clique aqui para adicionar seu\nhistória e compartilhar um pouco mais sobre você.",
-            "Sou um parágrafo. Clique aqui para adicionar seu\ntexto.a sua\nSou um parágrafo. Clique aqui para adicionar seu\nhistória e compartilhar um pouco mais sobre você."
+            "Estudante em formação do curso Técnico em\nInformática pela Universidade Federal de Viçosa,\nconcomitante ao ensino médio pela E.E. Serafim\nRibeiro de Rezende. Gostei muito de fazer parte desse\ntrabalho pois ele proporcionou muitas experiências\nque jamais esquecerei!",
+            "Estudante em formação do curso Técnico em\nInformática pela Universidade Federal de Viçosa,\nconcomitante ao ensino médio pela E.E. Serafim\nRibeiro de Rezende. Gosto muito da área da tecnologia\ne da computação, quero seguir nessa área mediante\nos meus conhecimentos do curso e uma futura graduação.",
+            "Estudante em formação do curso Técnico em\nInformática pela Universidade Federal de Viçosa,\nconcomitante ao ensino médio pela E.E. Serafim\nRibeiro de Rezende. Aprofundei os meus conhecimentos\nem CSS através do trabalho, que me proporcionou\ndiversos desafios e risadas.",
+            "Estudante em formação do curso Técnico em\nInformática pela Universidade Federal de Viçosa,\nconcomitante ao ensino médio pela E.E. Serafim\nRibeiro de Rezende. Foi legal a experiência de participar\ndesse projeto, principalmente a parte de ficar\nem chamadas pelo Discord com o grupo!"
 
         ]
 
@@ -30,7 +30,7 @@
         ]
 
         const imagens=[
-            "imagens/Eduardo_imagem.jpg",
+            "imagens/Eduardo_imagem1.jpg",
             "imagens/Jeferson_imagem.jpg",
             "imagens/Mateus_imagem.jpg",
             "imagens/Luis_imagem.jpg"

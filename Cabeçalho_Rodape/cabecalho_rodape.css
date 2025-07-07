@@ -22,7 +22,7 @@
 .cabecalho td{
     padding-left: 7em;
     padding-right: em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     color: aliceblue;
 }
 .link{
@@ -30,6 +30,6 @@
     color: white;
 }
 .link:hover{
-    color: blue;
+    color: #151671;
 }
 /*-- Rodape --*/
