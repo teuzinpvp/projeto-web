@@ -48,6 +48,10 @@ body{
 }
 .link{
     text-decoration: none;
+    color: aliceblue;
+}
+.link:hover{
+    color: blue;
 }
 #descricao{
     color: whitesmoke;

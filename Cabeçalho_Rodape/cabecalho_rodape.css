@@ -25,9 +25,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
 }
-link{
+.link{
     text-decoration: none;
-    font-family: popins;
     color: white;
+}
+.link:hover{
+    color: blue;
 }
 /*-- Rodape --*/
